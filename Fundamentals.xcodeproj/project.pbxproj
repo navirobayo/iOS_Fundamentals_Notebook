@@ -6,10 +6,21 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		2CBD30B92C48A03500CF151D /* Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CBD30BA2C48A6E700CF151D /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CBD30BB2C48BF8D00CF151D /* String Interpolation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Interpolation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CBD30BC2C48C1EB00CF151D /* Reecap 001.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reecap 001.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		2CBD30B22C489FDC00CF151D = {
 			isa = PBXGroup;
 			children = (
+				2CBD30BC2C48C1EB00CF151D /* Reecap 001.playground */,
+				2CBD30BB2C48BF8D00CF151D /* String Interpolation.playground */,
+				2CBD30BA2C48A6E700CF151D /* Operators.playground */,
+				2CBD30B92C48A03500CF151D /* Variables.playground */,
 			);
 			sourceTree = "<group>";
 		};
