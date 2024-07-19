@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		2C0505942C4A170000E2D8A7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2CBD30B92C48A03500CF151D /* Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CBD30BA2C48A6E700CF151D /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CBD30BB2C48BF8D00CF151D /* String Interpolation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Interpolation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -17,6 +18,7 @@
 		2CBD30B22C489FDC00CF151D = {
 			isa = PBXGroup;
 			children = (
+				2C0505942C4A170000E2D8A7 /* README.md */,
 				2CBD30BC2C48C1EB00CF151D /* Reecap 001.playground */,
 				2CBD30BB2C48BF8D00CF151D /* String Interpolation.playground */,
 				2CBD30BA2C48A6E700CF151D /* Operators.playground */,
