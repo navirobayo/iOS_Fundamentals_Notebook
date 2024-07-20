@@ -27,3 +27,11 @@ if cashInBank >= priceOfMotorbike && interestRate == 0.6 {
     print("You gotta save some cash bro")
 }
 
+var userIsAtPeace = true
+var userIsLookingForAdventure = true
+
+if userIsAtPeace || userIsLookingForAdventure {
+    print("The world is yours.")
+} else {
+    print("Be better. Be you.")
+}
