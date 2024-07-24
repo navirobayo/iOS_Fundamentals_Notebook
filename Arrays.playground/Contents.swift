@@ -1,7 +1,7 @@
 // MARK: Arrays
 
 var emmigrateItemsToGet = [String]()
-var itemsToSell = ["Electric Guitar", "Acoustic Guitar", "Electric Guitar 2", "Acoustic Guitar 12 Strings", "Green Chair", "Desk", "Black Chair", "Skinny Android Phone", "Asus Computer", "Punching Bag", "Boxing Gloves"]
+var itemsToSell = ["Electric Guitar", "Acoustic Guitar", "Electric Guitar 2", "Acoustic Guitar 12 Strings", "Green Chair", "Desk", "Black Chair", "Skinny Android Phone", "Asus Computer", "Punching Bag", "Boxing Gloves", "3D Printing Machine", "Tattoo Machines and Supplies"]
 var emmigrateItemsReady = ["Macbook", "iPhone", "Clothing", "Passport", "Digital Camera"]
 var incomeReady = [32000000, 600000]
 
@@ -26,7 +26,7 @@ itemsToSell.insert("Starlink", at: 5)
 
 print(itemsToSell)
 
-itemsToSell.removeFirst(5) // Removes the given number (int) of indexes from the start of the array. 
+itemsToSell.removeFirst(5) // Removes the given number (int) of indexes from the start of the array.
 print(itemsToSell)
 
 itemsToSell.removeFirst() // Removes the first index.
