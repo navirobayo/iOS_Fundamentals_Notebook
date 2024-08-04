@@ -1,36 +1,43 @@
-// MARK: Loops
+// MARK: Loops.
 
-// A loop is an instruction that continually repeats until we instruct it to stop.
+var businessExpenses = [26900,580000,800000]
 
-// We can use loops to iterate through data structures like arrays and dictionaries.
+print(businessExpenses)
 
-// MARK: For Loops.
-
-// A for loop is used to repeat a specific block of code a specified number of times.
-
-// There has to be a predefined number of times the loop will execute.
-
-
-for i in 1 ... 10 {
-    print(i)
+for expense in businessExpenses {
+    print("You have spent \(expense) so far bro")
 }
 
-for i in 0...10 {
-    print(i)
+let businessProfit = 897
+
+for expense in businessExpenses {
+    print("But no worries bro, now you have:\(expense + businessProfit)")
 }
 
-for _ in 1 ... 10 {
-    print("The index does not really matter here.")
+var businessInvestments = ["UK Global Talent Visa" : 580000, "Kronolog Domain" : 800000, "Watch" : 600000]
+
+for (key, value) in businessInvestments {
+    print("Your investment item is: \(key) with a price of \(value) bro")
 }
 
-print("----------------------")
+let userInvestments = Array(businessInvestments)
 
-for i in 1 ..< 10 {
-    print(i)
+for i in 0 ..< userInvestments.count {
+    let (key, value) = userInvestments[i]
+    print("Your item is: \(key) with a value of: \(value) bro")
 }
 
-var ItemsToSell = ["3D Printing Machine", "Asus Computer", "Desk", "Chair"]
+print("-------------------------")
 
-for i in ItemsToSell {
-    print("You need to sell this \(i) bro")
+var gameStats = [10, 47, 908, 234, 123, 988]
+
+for i in 0 ..< gameStats.count {
+    var item = gameStats[i]
+    print("Your current game stats are: \(item)")
+    print("Updating stats now...")
+    gameStats[i] = item - 23
+    print("Stats updated, you have \(gameStats[i])")
+    
 }
+
+
