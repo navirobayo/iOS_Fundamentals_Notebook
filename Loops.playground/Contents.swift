@@ -1,4 +1,4 @@
-// MARK: Loops.
+// MARK: Loops. + Reecap
 
 var businessExpenses = [26900,580000,800000]
 
