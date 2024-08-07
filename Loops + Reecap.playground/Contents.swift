@@ -1,4 +1,4 @@
-// MARK: Loops. + Reecap
+// MARK: For Loops. + Reecap.
 
 var businessExpenses = [26900,580000,800000]
 
@@ -40,4 +40,18 @@ for i in 0 ..< gameStats.count {
     
 }
 
+print("------------------")
 
+// MARK: While Loops. Reecap.
+
+var limitVariable = 0
+var counter = 20
+
+while counter > limitVariable {
+    print("Counting bro. Count down is at \(counter)")
+    print("Now it is at \(counter)")
+    if counter == 7 {
+        print("Bro, the counter is at 7 now. Be aware.")
+    }
+    counter -= 1
+}
