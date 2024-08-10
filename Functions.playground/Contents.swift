@@ -33,6 +33,8 @@ func numericalFunction(kilometers: Int, fat: Int) {
     print("If you run \(kilometers) kilometers, you will burn \(fat) grams of fat. That means my friend you have currently burned \(kilometers / fat) calories.")
 }
 
+// MARK: Return a value.
+
 func caloriesFunction(kilometers: Int, fat: Int) -> Int {
     return kilometers / fat
    
@@ -43,6 +45,14 @@ numericalFunction(kilometers: 10, fat: 2)
 let caloriesBurned = caloriesFunction(kilometers: 9, fat: 3)
 print ("You my friend, have just burned \(caloriesBurned) calories.")
 
-// MARK: Return a value.
+print("----------")
+
+func calculateProductivityScore(hoursWorked: Int, successFeeling: Int) {
+    let productivityScore = hoursWorked * successFeeling
+    
+    print("Today's productivity score is: \(productivityScore)")
+}
+
+calculateProductivityScore(hoursWorked: 3, successFeeling: 10)
 
 
