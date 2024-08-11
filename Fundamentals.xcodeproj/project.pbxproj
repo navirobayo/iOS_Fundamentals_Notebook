@@ -16,16 +16,20 @@
 		2C0505D72C641CEB00E2D8A7 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C0505D82C67789400E2D8A7 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C0505D92C6839F400E2D8A7 /* Structs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C0505DA2C68528400E2D8A7 /* Excercise001.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Excercise001.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CBD30B92C48A03500CF151D /* Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CBD30BA2C48A6E700CF151D /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CBD30BB2C48BF8D00CF151D /* String Interpolation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Interpolation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CBD30BC2C48C1EB00CF151D /* Reecap 001.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reecap 001.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CFA422D2C6868DF005EA85D /* Excercise002.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Excercise002.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		2CBD30B22C489FDC00CF151D = {
 			isa = PBXGroup;
 			children = (
+				2CFA422D2C6868DF005EA85D /* Excercise002.playground */,
+				2C0505DA2C68528400E2D8A7 /* Excercise001.playground */,
 				2C0505D92C6839F400E2D8A7 /* Structs.playground */,
 				2C0505D82C67789400E2D8A7 /* Optionals.playground */,
 				2C0505D72C641CEB00E2D8A7 /* Functions.playground */,
