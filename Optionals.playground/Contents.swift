@@ -7,14 +7,14 @@ var superPower: String?
 func getVillainInfo() {
     print("The villain's name is \(villainName)")
     if superPower == nil {
-        print("No bio available")
+        print("No superpower available")
     }
     if let unwrappedSuperPower = superPower {
         print("Hey bro, the unwrapped Super Power is \(unwrappedSuperPower)")
     }
     
     else {
-        print("Super power: \(superPower)")
+        print("Not enough data available!")
     }
 }
 
