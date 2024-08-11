@@ -23,12 +23,14 @@
 		2CBD30BC2C48C1EB00CF151D /* Reecap 001.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reecap 001.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CFA422D2C6868DF005EA85D /* Excercise002.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Excercise002.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CFA422E2C693448005EA85D /* Excercise003.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Excercise003.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CFA422F2C696061005EA85D /* Excercise004.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Excercise004.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		2CBD30B22C489FDC00CF151D = {
 			isa = PBXGroup;
 			children = (
+				2CFA422F2C696061005EA85D /* Excercise004.playground */,
 				2CFA422E2C693448005EA85D /* Excercise003.playground */,
 				2CFA422D2C6868DF005EA85D /* Excercise002.playground */,
 				2C0505DA2C68528400E2D8A7 /* Excercise001.playground */,
